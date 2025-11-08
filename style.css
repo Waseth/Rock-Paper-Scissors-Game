@@ -89,6 +89,8 @@ body{
     border-radius: 5px;
     font-weight: 800;
     padding: 8px;
+    width: 50px;
+    text-align: center;
 }
 .score-versus{
     display: flex;
@@ -99,6 +101,8 @@ body{
 .versus p{
     color: #1cfa07;
     margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 15px;
 }
 .versus button{
     border: solid 3px #1cfa07;
@@ -106,6 +110,17 @@ body{
     color: #220547;
     font-weight: 800;
     margin-bottom: 10px;
+    width: 90px;
+
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#final-winner{
+    font-size: 30px;
+    font-weight: 900;
 }
 .versus img{
     width: 100px;
@@ -113,7 +128,6 @@ body{
     background: #1cfa07;
     border-radius: 30px;
 }
-
 
 @media (max-width: 600px){
 
