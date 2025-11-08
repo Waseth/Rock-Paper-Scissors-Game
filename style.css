@@ -132,7 +132,7 @@ body{
 @media (max-width: 600px){
     .container{
         max-width: 100vh;
-        overflow-y: auto;
+        overflow-y: hidden;
     }
     .header h1{
         font-weight: 400;
